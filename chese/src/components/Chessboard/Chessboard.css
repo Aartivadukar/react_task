@@ -1,0 +1,20 @@
+/* src/components/Chessboard/Chessboard.css */
+
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    width: 480px;
+    height: 480px;
+    border: 2px solid #333;
+    margin: 20px auto; /* Centers the chessboard horizontally */
+  }
+  
+  .square {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  

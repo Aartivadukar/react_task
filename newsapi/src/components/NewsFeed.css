@@ -1,0 +1,43 @@
+/* src/components/NewsFeed.css */
+
+.news-feed {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .news-feed h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .news-item {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-title {
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .news-title:hover {
+    text-decoration: underline;
+  }
+  
+  .news-description {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .loading, .error {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+  }
+  

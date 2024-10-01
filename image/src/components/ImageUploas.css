@@ -1,0 +1,19 @@
+.image-upload {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    position: relative; /* Ensure relative positioning */
+}
+
+.image-upload:hover {
+    border-color: #888;
+}
+
+.image-upload img {
+    margin-top: 10px;
+    max-width: 100%; /* Ensure the image scales within its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: add some styling */
+}
